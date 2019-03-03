@@ -48,6 +48,7 @@ export default {
       drawer: false,
       items: [
         { title: "Home", icon: "home", link: "/" },
+        { title: "Login", icon: "dashboard", link: "/login" },
         { title: "About", icon: "question_answer", link: "/about" }
       ]
     };

@@ -47,6 +47,8 @@ export default {
       if (this.username === "" || this.password === "") {
         this.text = "username atau password tidak boleh kosong";
         this.snackbar = true;
+      } else {
+        this.$router.push({ name: "home" });
       }
     }
   }

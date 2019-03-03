@@ -10,8 +10,16 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [{
       path: '/',
-      name: 'home',
-      component: Home
+      component: Home,
+      children: [{
+          path: '',
+          name: 'home',
+        },
+        {
+          path: '/about',
+          redirect: 'about'
+        }
+      ]
     },
     {
       path: '/login',
