@@ -1,31 +1,61 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <v-toolbar dark color="primary" app>
+      <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
+      <v-toolbar-title class="headline text-uppercase white--text">
+        <span>Manajemen</span>
+        <span class="font-weight-light">Perusahaan</span>
+      </v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn small flat @click="refresh()">
+        <v-icon>refresh</v-icon>&nbsp;Segarkan
+      </v-btn>
+    </v-toolbar>
+    <v-navigation-drawer app v-model="drawer">
+      <v-toolbar flat>
+        <v-list>
+          <v-list-tile>
+            <v-list-tile-title class="title">Super Admin</v-list-tile-title>
+          </v-list-tile>
+        </v-list>
+      </v-toolbar>
+
+      <v-divider></v-divider>
+
+      <v-list dense class="pt-0">
+        <v-list-tile v-for="item in items" :key="item.title" route :to="item.link">
+          <v-list-tile-action>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-tile-action>
+
+          <v-list-tile-content>
+            <v-list-tile-title>{{ item.title }}</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+      </v-list>
+    </v-navigation-drawer>
+    <v-content>
+      <router-view/>
+    </v-content>
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+<script>
+export default {
+  name: "App",
+  data() {
+    return {
+      drawer: false,
+      items: [
+        { title: "Home", icon: "home", link: "/" },
+        { title: "About", icon: "question_answer", link: "/about" }
+      ]
+    };
+  },
+  methods: {
+    refresh() {
+      location.reload();
+    }
+  }
+};
+</script>
