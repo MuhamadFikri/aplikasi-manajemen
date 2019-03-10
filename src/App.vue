@@ -47,7 +47,7 @@ export default {
     return {
       drawer: false,
       items: [
-        { title: "Home", icon: "home", link: "/" },
+        { title: "Home", icon: "home", link: "/chart" },
         {
           title: "Persediaan Barang",
           icon: "dashboard",

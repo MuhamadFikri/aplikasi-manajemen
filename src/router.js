@@ -15,6 +15,11 @@ export default new Router({
           name: 'home',
         },
         {
+          path: '/chart',
+          name: 'chartlist',
+          component: () => import( /* webpackChunkName: "chart" */ './views/Chart.vue')
+        },
+        {
           path: '/toko',
           name: 'toko',
           component: () => import( /* webpackChunkName: "toko" */ './views/Toko.vue')
