@@ -7,7 +7,7 @@
             <v-card color="primary" class="white--text" @click="goto_utama(0)">
               <v-card-title primary-title>
                 <div>
-                  <div class="headline">Semua Barang</div>
+                  <div class="headline">HARGA POKOK BARANG</div>
                   <span>Informasi Semua Harga Barang</span>
                 </div>
               </v-card-title>
