@@ -1,11 +1,3 @@
 <template>
-  <v-layout></v-layout>
+  <router-view/>
 </template>
-
-<script>
-export default {
-  data() {
-    return {};
-  }
-};
-</script>

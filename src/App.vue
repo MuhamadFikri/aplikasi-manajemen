@@ -48,8 +48,24 @@ export default {
       drawer: false,
       items: [
         { title: "Home", icon: "home", link: "/" },
-        { title: "Login", icon: "dashboard", link: "/login" },
-        { title: "About", icon: "question_answer", link: "/about" }
+        {
+          title: "Persediaan Barang",
+          icon: "dashboard",
+          link: "/persediaanbarang"
+        },
+        {
+          title: "Laporan Keuangan",
+          icon: "dashboard",
+          link: "/laporankeuangan"
+        },
+        {
+          title: "Laporan Barang",
+          icon: "dashboard",
+          link: "/laporanbarang"
+        },
+        { title: "Harga", icon: "dashboard", link: "/harga" },
+        { title: "Karyawan", icon: "dashboard", link: "/karyawan" },
+        { title: "Toko", icon: "dashboard", link: "/toko" }
       ]
     };
   },
