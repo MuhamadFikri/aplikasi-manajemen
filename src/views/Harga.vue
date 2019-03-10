@@ -3,6 +3,16 @@
     <v-card>
       <v-container fluid grid-list-lg>
         <v-layout row wrap>
+          <v-flex>
+            <v-card color="primary" class="white--text" @click="goto_utama(0)">
+              <v-card-title primary-title>
+                <div>
+                  <div class="headline">Semua Barang</div>
+                  <span>Informasi Semua Harga Barang</span>
+                </div>
+              </v-card-title>
+            </v-card>
+          </v-flex>
           <v-flex xs12 v-for="(toko, i) in pertokoan" :key="i" @click="goto_detail(toko.id)">
             <v-card color="purple" class="white--text">
               <v-card-title primary-title>
@@ -35,6 +45,12 @@ export default {
   },
   methods: {
     goto_detail(param_id) {
+      this.$router.push({
+        name: "detail",
+        params: { id: param_id }
+      });
+    },
+    goto_utama(param_id) {
       this.$router.push({
         name: "detail",
         params: { id: param_id }
