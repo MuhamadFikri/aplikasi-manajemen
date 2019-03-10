@@ -33,8 +33,8 @@
           </v-flex>
         </v-layout>
       </v-container>
-      <v-card-text style="height: 100px; position: relative">
-        <v-btn absolute dark fab top right color="pink">
+      <v-card-text style="height: 100px; position: fixed">
+        <v-btn absolute dark fab fixed bottom right color="pink">
           <v-icon>add</v-icon>
         </v-btn>
       </v-card-text>
