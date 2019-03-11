@@ -31,13 +31,13 @@
               </v-card-actions>
             </v-card>
           </v-flex>
+          <v-btn @click="tambah()" dark fab fixed bottom right color="pink">
+            <v-icon>add</v-icon>
+          </v-btn>
         </v-layout>
+        <!-- <v-card-text style="height: 100px; position: fixed">
+        </v-card-text>-->
       </v-container>
-      <v-card-text style="height: 100px; position: fixed">
-        <v-btn absolute dark fab fixed bottom right color="pink">
-          <v-icon>add</v-icon>
-        </v-btn>
-      </v-card-text>
     </v-card>
   </v-layout>
 </template>
@@ -95,6 +95,12 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    tambah() {
+      console.log("masuk ke dalam proses menambah");
+      this.$router.push({ name: "tambahkaryawan" });
+    }
   }
 };
 </script>

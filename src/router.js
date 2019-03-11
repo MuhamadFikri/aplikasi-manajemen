@@ -45,6 +45,11 @@ export default new Router({
           component: () => import( /* webpackChunkName: "karyawan" */ './views/Karyawan.vue')
         },
         {
+          path: '/tambahkaryawan',
+          name: 'tambahkaryawan',
+          component: () => import( /* webpackChunkName: "tambahkaryawan" */ './components/karyawan/Tambah_Karyawan.vue')
+        },
+        {
           path: '/laporanbarang',
           name: 'laporanbarang',
           component: () => import( /* webpackChunkName: "laporanbarang" */ './views/Laporan_Barang.vue')
