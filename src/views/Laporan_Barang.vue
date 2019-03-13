@@ -1,16 +1,6 @@
 <template>
   <div>
-    <v-toolbar tabs>
-      <v-spacer></v-spacer>
-
-      <v-btn icon>
-        <v-icon>search</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>more_vert</v-icon>
-      </v-btn>
-
+    <v-toolbar tabs color="primary">
       <template v-slot:extension>
         <v-tabs v-model="tabs" fixed-tabs color="transparent">
           <v-tabs-slider></v-tabs-slider>

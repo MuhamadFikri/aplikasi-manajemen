@@ -19,7 +19,7 @@
           <v-container fluid>
             <v-layout row wrap justify-space-between>
               <v-spacer></v-spacer>
-              <v-flex xs8 md8 lg8>
+              <v-flex xs4 md4 lg8>
                 <v-text-field
                   ref="margin"
                   type="number"
@@ -29,7 +29,7 @@
                 ></v-text-field>
               </v-flex>
               <v-spacer></v-spacer>
-              <v-flex xs2 md2 lg2>
+              <v-flex xs4 md4 lg2>
                 <v-btn color="success" @click="simpanMargin()">
                   <span>Simpan</span>
                 </v-btn>

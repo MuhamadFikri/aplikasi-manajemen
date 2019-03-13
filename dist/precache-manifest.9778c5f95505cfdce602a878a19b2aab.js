@@ -8,7 +8,7 @@ self.__precacheManifest = [
     "url": "/robots.txt"
   },
   {
-    "revision": "b77f6c500e9765577cd5",
+    "revision": "9f9999e1fce95dc17af4",
     "url": "/css/laporanbarang.88c66ece.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/js/tambahtoko.bd2e676e.js"
   },
   {
-    "revision": "783c5b51c38bde02b201",
-    "url": "/js/detailharga.8eeceeca.js"
+    "revision": "3692a9ad6e37f58e9252",
+    "url": "/js/detailharga.101d300a.js"
   },
   {
     "revision": "9b72c5b13748f8ed4c1c",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/js/harga.f487bcc4.js"
   },
   {
-    "revision": "b77f6c500e9765577cd5",
-    "url": "/js/laporanbarang.a5e33c4f.js"
+    "revision": "9f9999e1fce95dc17af4",
+    "url": "/js/laporanbarang.69b7f883.js"
   },
   {
-    "revision": "cc2500949b5d59c9f91c",
-    "url": "/js/app.6c433f19.js"
+    "revision": "dc65085b6e5f363e822c",
+    "url": "/js/app.59edf308.js"
   },
   {
     "revision": "ef276b355affa2439463",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/img/pokeball.png"
   },
   {
-    "revision": "a615ed5a160f13eb723582f816f79117",
+    "revision": "5b0df550f9468be56c9ef085379a40b3",
     "url": "/index.html"
   },
   {
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/css/detailharga~detaillaporan~laporankeuangan.35454734.css"
   },
   {
-    "revision": "783c5b51c38bde02b201",
+    "revision": "3692a9ad6e37f58e9252",
     "url": "/css/detailharga.be453db1.css"
   },
   {
