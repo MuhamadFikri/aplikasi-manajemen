@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/robots.txt"
   },
   {
-    "revision": "037dee9cfa5621dd12bb",
-    "url": "/css/laporanbarang.88c66ece.css"
+    "revision": "05442c92966468c2f3ad",
+    "url": "/js/laporanbarang.44bd59ab.js"
   },
   {
     "revision": "db6fc2aeb9e753d4806d",
@@ -24,24 +24,24 @@ self.__precacheManifest = [
     "url": "/js/chunk-vendors.a3bed4b2.js"
   },
   {
-    "revision": "7dd5b360163713d33552",
-    "url": "/js/tambahtoko.bd2e676e.js"
+    "revision": "0beccc7558b515d644b2",
+    "url": "/js/tambahtoko.63d8f161.js"
   },
   {
     "revision": "3692a9ad6e37f58e9252",
     "url": "/js/detailharga.101d300a.js"
   },
   {
-    "revision": "9b72c5b13748f8ed4c1c",
-    "url": "/js/tambahkaryawan.9f11ea81.js"
+    "revision": "b43eaf870dc926c674c2",
+    "url": "/js/tambahkaryawan.defdf5ad.js"
   },
   {
     "revision": "01556f748e14019b8276",
     "url": "/js/detailharga~detaillaporan~laporankeuangan.5c1b6a67.js"
   },
   {
-    "revision": "ed76c02fbe68151b9639",
-    "url": "/js/persediaanbarang.203b050b.js"
+    "revision": "5735b3ab04e32b27ac98",
+    "url": "/js/persediaanbarang.214a7da4.js"
   },
   {
     "revision": "383f8a524ac24a37b8c2",
@@ -60,16 +60,48 @@ self.__precacheManifest = [
     "url": "/js/harga.f487bcc4.js"
   },
   {
-    "revision": "037dee9cfa5621dd12bb",
-    "url": "/js/laporanbarang.afdc724e.js"
+    "revision": "40070e729037b49350be",
+    "url": "/js/laporanbarang~persediaanbarang.f3a27506.js"
   },
   {
-    "revision": "043caa8bec52d21a91ef",
-    "url": "/js/app.805a4658.js"
+    "revision": "c95e0a2617adaab5c4a8",
+    "url": "/js/app.d427f2af.js"
   },
   {
     "revision": "ef276b355affa2439463",
     "url": "/js/chart.e5f9a21e.js"
+  },
+  {
+    "revision": "3692a9ad6e37f58e9252",
+    "url": "/css/detailharga.be453db1.css"
+  },
+  {
+    "revision": "40070e729037b49350be",
+    "url": "/css/laporanbarang~persediaanbarang.da0f5f03.css"
+  },
+  {
+    "revision": "35bb7028d7a39ef0ed09e9256311b44e",
+    "url": "/img/psyduck.svg"
+  },
+  {
+    "revision": "42406667388344dd7e98deb92c8005c2",
+    "url": "/img/psyduck.png"
+  },
+  {
+    "revision": "b43eaf870dc926c674c2",
+    "url": "/css/tambahkaryawan.f6d27d8d.css"
+  },
+  {
+    "revision": "89de3ef15cf43d045d8e950e72f6416f",
+    "url": "/img/pokeball.png"
+  },
+  {
+    "revision": "0beccc7558b515d644b2",
+    "url": "/css/tambahtoko.f6d27d8d.css"
+  },
+  {
+    "revision": "efa974647c3cb1f6cb16bbe7d80f51ce",
+    "url": "/index.html"
   },
   {
     "revision": "e752faf4ff8c6269343a",
@@ -78,30 +110,6 @@ self.__precacheManifest = [
   {
     "revision": "59ad1b68a0cf3940f586",
     "url": "/css/karyawan.a6ace10d.css"
-  },
-  {
-    "revision": "35bb7028d7a39ef0ed09e9256311b44e",
-    "url": "/img/psyduck.svg"
-  },
-  {
-    "revision": "9b72c5b13748f8ed4c1c",
-    "url": "/css/tambahkaryawan.f6d27d8d.css"
-  },
-  {
-    "revision": "42406667388344dd7e98deb92c8005c2",
-    "url": "/img/psyduck.png"
-  },
-  {
-    "revision": "7dd5b360163713d33552",
-    "url": "/css/tambahtoko.f6d27d8d.css"
-  },
-  {
-    "revision": "89de3ef15cf43d045d8e950e72f6416f",
-    "url": "/img/pokeball.png"
-  },
-  {
-    "revision": "ff379bfaa41910fe9b4d2a8ffb6cf102",
-    "url": "/index.html"
   },
   {
     "revision": "455ae34c1d0dffb15b1f",
@@ -114,10 +122,6 @@ self.__precacheManifest = [
   {
     "revision": "01556f748e14019b8276",
     "url": "/css/detailharga~detaillaporan~laporankeuangan.35454734.css"
-  },
-  {
-    "revision": "3692a9ad6e37f58e9252",
-    "url": "/css/detailharga.be453db1.css"
   },
   {
     "revision": "e945cabeb22d09667f07",

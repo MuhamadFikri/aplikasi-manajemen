@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["persediaanbarang"],{"20a6":function(a,n,e){"use strict";e.r(n);var i=function(){var a=this,n=a.$createElement,e=a._self._c||n;return e("h1",[a._v("ini adalah isi dari persediaan barang")])},r=[],s=e("2877"),t={},l=Object(s["a"])(t,i,r,!1,null,null,null);n["default"]=l.exports}}]);
-//# sourceMappingURL=persediaanbarang.203b050b.js.map

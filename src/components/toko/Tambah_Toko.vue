@@ -24,7 +24,7 @@
 
       <!-- <v-btn color="warning" @click="resetValidation">Reset Validation</v-btn> -->
     </v-form>
-    <v-snackbar v-model="snackbar" multi-line :timeout="timeout" top vertical>
+    <v-snackbar v-model="snackbar" multi-line :timeout="timeout" top>
       {{ snackbar_message }}
       <v-btn color="pink" flat @click="snackbar = false">Close</v-btn>
     </v-snackbar>
