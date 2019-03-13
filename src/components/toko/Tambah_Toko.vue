@@ -1,32 +1,24 @@
 <template>
   <v-container>
     <v-form ref="form" v-model="valid" lazy-validation>
-      <v-text-field v-model="nama" :rules="nameRules" label="Nama Karyawan" required></v-text-field>
+      <v-text-field v-model="nama" :rules="nameRules" label="Nama Toko" required></v-text-field>
 
       <v-text-field
         v-model="nomor_hp"
         :rules="[v => !!v || 'Nomor Tidak Boleh Kosong']"
-        label="Nomor HP"
+        label="Contact Person"
         required
       ></v-text-field>
 
       <v-textarea
         v-model="alamat"
         :rules="[v => !!v || 'Alamat Tidak Boleh Kosong']"
-        label="Alamat Rumah"
+        label="Alamat Toko"
         auto-grow
         required
       ></v-textarea>
 
-      <v-text-field
-        label="Gaji Karyawan"
-        v-model="gaji"
-        type="number"
-        :rules="[v => !!v || 'Gaji Tidak Boleh Kosong']"
-        required
-      ></v-text-field>
-
-      <v-btn type="submit" :disabled="!valid" color="success" @click="validate">Submit</v-btn>
+      <v-btn type="submit" :disabled="!valid" color="success" @click="validate">Simpan</v-btn>
 
       <v-btn color="error" @click="reset">Reset Data</v-btn>
 
@@ -48,7 +40,6 @@ export default {
     nama: "",
     alamat: "",
     nomor_hp: "",
-    gaji: "",
     snackbar_message: "Tidak ada aksi",
     nameRules: [
       v => !!v || "Name is required"
@@ -64,6 +55,7 @@ export default {
     checkbox: false,
     not_empty: [v => !!v || "Alamat tidak boleh Kosong"]
   }),
+
   methods: {
     validate() {
       if (this.$refs.form.validate()) {

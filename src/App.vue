@@ -3,14 +3,14 @@
     <v-toolbar dark color="primary" app>
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title class="headline text-uppercase white--text">
-        <template class="hidden-md-and-down">
+        <div class="hidden-sm-and-down">
           <span class="font-weight-bold">Manajemen</span>
           <span class="font-weight-light">Perusahaan</span>
-        </template>
-        <template class="hidden-lg-and-up">
+        </div>
+        <div class="hidden-md-and-up">
           <span class="font-weight-bold">M</span>
           <span class="font-weight-light">P</span>
-        </template>
+        </div>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn small flat @click="refresh()">

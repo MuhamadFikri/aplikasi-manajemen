@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.592fd67d36f4e833821ccdafa811032b.js"
+  "/precache-manifest.3b56515ee9d40ede8d29226f2fb32947.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "manajemen-app"});

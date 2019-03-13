@@ -25,6 +25,11 @@ export default new Router({
           component: () => import( /* webpackChunkName: "toko" */ './views/Toko.vue')
         },
         {
+          path: '/tambahtoko',
+          name: 'tambahtoko',
+          component: () => import( /* webpackChunkName: "tambahtoko" */ './components/toko/Tambah_Toko.vue')
+        },
+        {
           path: '/harga',
           name: 'harga',
           component: () => import( /* webpackChunkName: "harga" */ './views/Harga.vue')

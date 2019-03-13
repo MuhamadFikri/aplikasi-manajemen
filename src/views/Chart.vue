@@ -17,7 +17,7 @@
         <v-card>
           <v-container>
             <h1 class="title py-2">Selisih Pendapatan Pekan Lalu</h1>
-            <p class="subheading font-weight-bold px-2">
+            <p class="subheading font-weight-bold">
               Selisih :
               <span
                 class="font-weight-medium"
