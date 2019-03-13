@@ -1,8 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "xyz.appmaker.xnaost",
-    "sha256_cert_fingerprints": ["88:9D:04:6A:0F:BF:FD:A5:3D:A4:F6:47:55:DC:CC:F4:B9:FA:2C:22:AA:47:A4:CF:BF:7A:61:07:CB:AB:03:82"]
-  }
-}]
