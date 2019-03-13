@@ -16,7 +16,7 @@
       <v-flex xs12>
         <v-card>
           <v-container>
-            <h1 class="primary-title py-2">Selisih Pendapatan Pekan Lalu :</h1>
+            <h1 class="title py-2">Selisih Pendapatan Pekan Lalu</h1>
             <p class="subheading font-weight-bold px-2">
               Selisih :
               <span

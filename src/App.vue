@@ -3,8 +3,14 @@
     <v-toolbar dark color="primary" app>
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title class="headline text-uppercase white--text">
-        <span>Manajemen</span>
-        <span class="font-weight-light">Perusahaan</span>
+        <template class="hidden-md-and-down">
+          <span class="font-weight-bold">Manajemen</span>
+          <span class="font-weight-light">Perusahaan</span>
+        </template>
+        <template class="hidden-lg-and-up">
+          <span class="font-weight-bold">M</span>
+          <span class="font-weight-light">P</span>
+        </template>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn small flat @click="refresh()">
