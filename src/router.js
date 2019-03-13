@@ -55,11 +55,6 @@ export default new Router({
           component: () => import( /* webpackChunkName: "tambahkaryawan" */ './components/karyawan/Tambah_Karyawan.vue')
         },
         {
-          path: '/laporanbarang',
-          name: 'laporanbarang',
-          component: () => import( /* webpackChunkName: "laporanbarang" */ './views/Laporan_Barang.vue')
-        },
-        {
           path: '/persediaanbarang',
           name: 'persediaanbarang',
           component: () => import( /* webpackChunkName: "persediaanbarang" */ './views/Persediaan_Barang.vue')
@@ -74,6 +69,11 @@ export default new Router({
           redirect: 'about'
         }
       ]
+    },
+    {
+      path: '/laporanbarang',
+      name: 'laporanbarang',
+      component: () => import( /* webpackChunkName: "laporanbarang" */ './views/Laporan_Barang.vue')
     },
     {
       path: '/harga',

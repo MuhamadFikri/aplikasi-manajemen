@@ -1,6 +1,10 @@
 <template>
   <div>
     <v-toolbar tabs color="primary">
+      <v-btn @click="bths()" icon>
+        <v-icon color="black">arrow_back</v-icon>
+      </v-btn>
+      <v-toolbar-title>Laporan Barang</v-toolbar-title>
       <template v-slot:extension>
         <v-tabs v-model="tabs" fixed-tabs color="transparent">
           <v-tabs-slider></v-tabs-slider>
@@ -37,6 +41,12 @@ export default {
       text:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     };
+  },
+  methods: {
+    // back to homescreen
+    bths() {
+      this.$router.push({ name: "charts" });
+    }
   }
 };
 </script>

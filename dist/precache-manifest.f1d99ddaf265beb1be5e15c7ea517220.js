@@ -8,7 +8,7 @@ self.__precacheManifest = [
     "url": "/robots.txt"
   },
   {
-    "revision": "9f9999e1fce95dc17af4",
+    "revision": "037dee9cfa5621dd12bb",
     "url": "/css/laporanbarang.88c66ece.css"
   },
   {
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/js/harga.f487bcc4.js"
   },
   {
-    "revision": "9f9999e1fce95dc17af4",
-    "url": "/js/laporanbarang.69b7f883.js"
+    "revision": "037dee9cfa5621dd12bb",
+    "url": "/js/laporanbarang.afdc724e.js"
   },
   {
-    "revision": "dc65085b6e5f363e822c",
-    "url": "/js/app.59edf308.js"
+    "revision": "043caa8bec52d21a91ef",
+    "url": "/js/app.805a4658.js"
   },
   {
     "revision": "ef276b355affa2439463",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/img/pokeball.png"
   },
   {
-    "revision": "5b0df550f9468be56c9ef085379a40b3",
+    "revision": "ff379bfaa41910fe9b4d2a8ffb6cf102",
     "url": "/index.html"
   },
   {

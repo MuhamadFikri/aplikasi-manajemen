@@ -60,14 +60,14 @@ export default {
           link: "/persediaanbarang"
         },
         {
-          title: "Laporan Keuangan",
-          icon: "dashboard",
-          link: "/laporankeuangan"
-        },
-        {
           title: "Laporan Barang",
           icon: "dashboard",
           link: "/laporanbarang"
+        },
+        {
+          title: "Laporan Keuangan",
+          icon: "dashboard",
+          link: "/laporankeuangan"
         },
         { title: "Harga", icon: "dashboard", link: "/harga" },
         { title: "Karyawan", icon: "dashboard", link: "/karyawan" },
