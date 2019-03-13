@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/js/karyawan.7c5e4976.js"
   },
   {
-    "revision": "db6fc2aeb9e753d4806d",
-    "url": "/js/about.9d62e569.js"
-  },
-  {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/robots.txt"
   },
   {
-    "revision": "ef276b355affa2439463",
-    "url": "/js/chart.e5f9a21e.js"
+    "revision": "b77f6c500e9765577cd5",
+    "url": "/css/laporanbarang.88c66ece.css"
+  },
+  {
+    "revision": "db6fc2aeb9e753d4806d",
+    "url": "/js/about.9d62e569.js"
   },
   {
     "revision": "e752faf4ff8c6269343a",
@@ -68,44 +68,40 @@ self.__precacheManifest = [
     "url": "/js/app.6c433f19.js"
   },
   {
-    "revision": "783c5b51c38bde02b201",
-    "url": "/css/detailharga.be453db1.css"
-  },
-  {
-    "revision": "89de3ef15cf43d045d8e950e72f6416f",
-    "url": "/img/pokeball.png"
-  },
-  {
-    "revision": "35bb7028d7a39ef0ed09e9256311b44e",
-    "url": "/img/psyduck.svg"
-  },
-  {
-    "revision": "42406667388344dd7e98deb92c8005c2",
-    "url": "/img/psyduck.png"
-  },
-  {
-    "revision": "764b478b70ee12397b77ac5490f699df",
-    "url": "/index.html"
+    "revision": "ef276b355affa2439463",
+    "url": "/js/chart.e5f9a21e.js"
   },
   {
     "revision": "e752faf4ff8c6269343a",
     "url": "/css/toko.a6ace10d.css"
   },
   {
-    "revision": "7dd5b360163713d33552",
-    "url": "/css/tambahtoko.f6d27d8d.css"
+    "revision": "59ad1b68a0cf3940f586",
+    "url": "/css/karyawan.a6ace10d.css"
+  },
+  {
+    "revision": "35bb7028d7a39ef0ed09e9256311b44e",
+    "url": "/img/psyduck.svg"
   },
   {
     "revision": "9b72c5b13748f8ed4c1c",
     "url": "/css/tambahkaryawan.f6d27d8d.css"
   },
   {
-    "revision": "b77f6c500e9765577cd5",
-    "url": "/css/laporanbarang.88c66ece.css"
+    "revision": "42406667388344dd7e98deb92c8005c2",
+    "url": "/img/psyduck.png"
   },
   {
-    "revision": "59ad1b68a0cf3940f586",
-    "url": "/css/karyawan.a6ace10d.css"
+    "revision": "7dd5b360163713d33552",
+    "url": "/css/tambahtoko.f6d27d8d.css"
+  },
+  {
+    "revision": "89de3ef15cf43d045d8e950e72f6416f",
+    "url": "/img/pokeball.png"
+  },
+  {
+    "revision": "a615ed5a160f13eb723582f816f79117",
+    "url": "/index.html"
   },
   {
     "revision": "455ae34c1d0dffb15b1f",
@@ -118,6 +114,10 @@ self.__precacheManifest = [
   {
     "revision": "01556f748e14019b8276",
     "url": "/css/detailharga~detaillaporan~laporankeuangan.35454734.css"
+  },
+  {
+    "revision": "783c5b51c38bde02b201",
+    "url": "/css/detailharga.be453db1.css"
   },
   {
     "revision": "e945cabeb22d09667f07",
