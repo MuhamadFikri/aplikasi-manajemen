@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: "dpgudang",
+  name: "pbgudang",
   data() {
     return {
       headers: [
@@ -29,35 +29,35 @@ export default {
           id: 1,
           nama: "Garam",
           satuan: "KG",
-          kategori: Makanan,
+          kategori: "Makanan",
           jumlah: 180
         },
         {
           id: 2,
           nama: "Pasir",
           satuan: "KG",
-          kategori: Makanan,
+          kategori: "Material",
           jumlah: 180
         },
         {
           id: 3,
           nama: "Beras",
           satuan: "KG",
-          kategori: Makanan,
+          kategori: "Makanan",
           jumlah: 180
         },
         {
           id: 4,
           nama: "Kurma",
           satuan: "KG",
-          kategori: Makanan,
+          kategori: "Makanan",
           jumlah: 180
         },
         {
           id: 5,
           nama: "Ketupat",
           satuan: "KG",
-          kategori: Makanan,
+          kategori: "Makanan",
           jumlah: 180
         }
       ]
