@@ -12,18 +12,26 @@
     </v-tabs>
 
     <v-tabs-items v-model="tabs" class="white elevation-1">
-      <v-tab-item v-for="i in 3" :key="i" :value="'mobile-tabs-2-' + i">
-        <v-card>
-          <v-card-text>{{ text }}</v-card-text>
-        </v-card>
+      <v-tab-item value="mobile-tabs-2-1">
+        <barang-gudang/>
+      </v-tab-item>
+      <v-tab-item value="mobile-tabs-2-2">
+        <barang-toko/>
       </v-tab-item>
     </v-tabs-items>
   </div>
 </template>
 
 <script>
+import BarangGudang from "@/components/laporan_barang/Barang_Gudang.vue";
+import BarangToko from "@/components/laporan_barang/Barang_Toko.vue";
+
 export default {
   name: "laporanbarang",
+  components: {
+    BarangGudang,
+    BarangToko
+  },
   data() {
     return {
       tabs: null,

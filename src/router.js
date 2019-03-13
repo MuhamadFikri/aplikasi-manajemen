@@ -45,6 +45,16 @@ export default new Router({
           component: () => import( /* webpackChunkName: "detaillaporan" */ './components/laporan_keuangan/Detail_Laporan.vue')
         },
         {
+          path: '/pbgudang/:id',
+          name: 'pbgudang',
+          component: () => import( /* webpackChunkName: "persediaangudang" */ './components/persediaan_barang/Detail_Persediaan_Gudang.vue')
+        },
+        {
+          path: '/pbtoko/:id',
+          name: 'pbtoko',
+          component: () => import( /* webpackChunkName: "persediaantoko" */ './components/persediaan_barang/Detail_Persediaan_Toko.vue')
+        },
+        {
           path: '/karyawan',
           name: 'karyawan',
           component: () => import( /* webpackChunkName: "karyawan" */ './views/Karyawan.vue')
