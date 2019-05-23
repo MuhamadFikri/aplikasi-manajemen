@@ -15,29 +15,7 @@
         </v-card>
       </v-flex>
       <v-flex xs12>
-        <v-card>
-          <v-container fluid>
-            <v-layout row wrap justify-space-between>
-              <v-spacer></v-spacer>
-              <v-flex xs4 md4 lg8>
-                <v-text-field
-                  ref="margin"
-                  type="number"
-                  min="0"
-                  v-model="margin"
-                  label="Biaya Tambahan"
-                ></v-text-field>
-              </v-flex>
-              <v-spacer></v-spacer>
-              <v-flex xs4 md4 lg2>
-                <v-btn color="success" @click="simpanMargin()">
-                  <span>Simpan</span>
-                </v-btn>
-              </v-flex>
-              <v-spacer></v-spacer>
-            </v-layout>
-          </v-container>
-        </v-card>
+        
       </v-flex>
     </v-layout>
   </v-container>

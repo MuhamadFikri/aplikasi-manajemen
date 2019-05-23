@@ -25,11 +25,6 @@ export default new Router({
           component: () => import( /* webpackChunkName: "toko" */ './views/Toko.vue')
         },
         {
-          path: '/tambahtoko',
-          name: 'tambahtoko',
-          component: () => import( /* webpackChunkName: "tambahtoko" */ './components/toko/Tambah_Toko.vue')
-        },
-        {
           path: '/harga',
           name: 'harga',
           component: () => import( /* webpackChunkName: "harga" */ './views/Harga.vue')
@@ -68,11 +63,6 @@ export default new Router({
           path: '/karyawan',
           name: 'karyawan',
           component: () => import( /* webpackChunkName: "karyawan" */ './views/Karyawan.vue')
-        },
-        {
-          path: '/tambahkaryawan',
-          name: 'tambahkaryawan',
-          component: () => import( /* webpackChunkName: "tambahkaryawan" */ './components/karyawan/Tambah_Karyawan.vue')
         },
         {
           path: '/laporanbarang',

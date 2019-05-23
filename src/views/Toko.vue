@@ -31,7 +31,7 @@
             </v-card>
           </v-flex>
           <v-card-text style="height: 100px; position: fixed">
-            <v-btn dark fab fixed bottom right color="pink" @click="tambah()">
+            
               <v-icon>add</v-icon>
             </v-btn>
           </v-card-text>
@@ -85,10 +85,5 @@ export default {
       ]
     };
   },
-  methods: {
-    tambah() {
-      this.$router.push({ name: "tambahtoko" });
-    }
-  }
 };
 </script>

@@ -31,7 +31,7 @@
               </v-card-actions>
             </v-card>
           </v-flex>
-          <v-btn @click="tambah()" dark fab fixed bottom right color="pink">
+          <v-btn>
             <v-icon>add</v-icon>
           </v-btn>
         </v-layout>
@@ -96,11 +96,5 @@ export default {
       ]
     };
   },
-  methods: {
-    tambah() {
-      console.log("masuk ke dalam proses menambah");
-      this.$router.push({ name: "tambahkaryawan" });
-    }
-  }
 };
 </script>
